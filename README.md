@@ -22,7 +22,6 @@ The main objectives of this project are to:
 - Test network connectivity between servers and client computers</br>
 - Use common troubleshooting commands such as ipconfig, ping, tracert, nslookup, arp, and netstat</br>
 - Diagnose common DNS, DHCP, addressing, and connectivity problems</br>
-- Practice documenting and resolving realistic helpdesk tickets</br>
 - Develop networking experience that can be demonstrated during interviews</br>
 </br>
 Technologies Used:
@@ -42,3 +41,18 @@ Technologies Used:
 - Windows Command Prompt</br>
 - Windows PowerShell</br>
 - GitHub for project documentation</br>
+
+<h2>Build a small business network in Oracle Virtualbox</h2>
+I began using Oracle Virtualbox and created three Virtual Machines to use. Windows Server 2019 was installed on DC01, while Windows 10 was installed on PC-A01 and PC-B01.
+<img width="1537" height="1059" alt="image" src="https://github.com/user-attachments/assets/b1589fa5-ac24-4d3b-9640-d0c7b390918c" />
+
+Before Starting up any of the virtual machines I had to configure the network settings in Virtualbox. I left Adapter 1 on Nat so it has connectivity to the internet.
+<img width="963" height="464" alt="Screenshot 2026-09-04 204258" src="https://github.com/user-attachments/assets/7bad7c46-ff39-47d3-93b1-44ab33ac0034" />
+
+Then I enabled Adapter 2 and changed the attachment from Nat to Internal Network and Named it based off of my example organization "Contoso".
+<img width="963" height="477" alt="Screenshot 2026-09-04 204305" src="https://github.com/user-attachments/assets/54057e6b-2118-4894-a2c9-f8f9f957d63e" />
+
+I proceeded to change both user PCs to match the settings of DC01.
+
+<h2>Configure IP Addresses</h2>
+Next step was to 
