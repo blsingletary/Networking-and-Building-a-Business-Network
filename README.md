@@ -1,4 +1,4 @@
-<h1>Networking and Building a Business Network</h1>
+<h1>Networking and Building a Business Network Lab</h1>
 <h2>Project Overview</h2>
 
 I created this networking home lab in Oracle VirtualBox to develop practical skills commonly required for entry-level IT Support, Helpdesk, and Desktop Support positions.
