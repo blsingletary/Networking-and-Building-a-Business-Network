@@ -41,7 +41,7 @@ The main objectives of this project are to:
 - Windows Command Prompt</br>
 - Windows PowerShell</br>
 - GitHub for project documentation</br>
-
+<div align="center">
 <h2>Setup Virtual Machines</h2>
 I began using Oracle Virtualbox and created three Virtual Machines to use. Windows Server 2019 was installed on DC01, while Windows 10 was installed on PC-A01 and PC-B01.
 <img width="1537" height="1059" alt="image" src="https://github.com/user-attachments/assets/b1589fa5-ac24-4d3b-9640-d0c7b390918c" /></br>
@@ -134,6 +134,7 @@ Joining the Domain
 <img width="618" height="489" alt="image" src="https://github.com/user-attachments/assets/5c428e0c-f862-4d0c-9eb6-b87d16f0be7c" /></br>
 
 </br>
+</div>
 <h2>Conclusion</h2>
 Completing this networking home lab gave me practical experience building and supporting a small business network in Oracle VirtualBox. I configured Windows Server 2019 as a domain controller, DNS server, DHCP server, and file server. I also connected PC-A01 and PC-B01 to the Contoso domain and verified that they could obtain IP addresses, resolve domain names, communicate with the server, and access network resources.
 </br>
@@ -142,3 +143,4 @@ This project strengthened my understanding of IPv4 addressing, subnet masks, DHC
 </br>
 </br>
 Overall, this lab allowed me to practice responsibilities commonly performed in Helpdesk, IT Support, and Desktop Support roles. It has prepared me to troubleshoot user connectivity problems, manage Windows workstations, support Active Directory environments, and clearly document technical solutions in a professional IT workplace.
+
